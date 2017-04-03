@@ -119,11 +119,11 @@ function appendForSale(forSale){
         '</div>');
 
     }
-    if (j%4===3){
-      console.log('/row');
-    $('.test').append('row</div><div class="row">');
-
-    }
+    // if (j%4===3){
+    //   console.log('/row');
+    // $('.test').append('row</div><div class="row">');
+    //
+    // }
 }
 
 function appendRentals(rentals){
@@ -153,13 +153,14 @@ function appendRentals(rentals){
           '<p class="text-center">LEARN MORE</p>' +
         '</div>');
 
-    }
-    if (j%4===3){
-      console.log('/row');
-    $('.test').append('row</div><div class="row">');
-
-    }
+    // }
+    // if (j%4===3){
+    //   console.log('/row');
+    // $('.test').append('row</div><div class="row">');
+    //
+    // }
   }
+}
 
 
 

@@ -6,7 +6,8 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "bootstrap": "^3.3.7",
-    "express": "^4.15.2",
+    "express": "4.15.2",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-uglify": "^2.2.1",
     "grunt-contrib-watch": "^1.0.0",
