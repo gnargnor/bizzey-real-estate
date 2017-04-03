@@ -11,7 +11,7 @@ var ListingSchema = mongoose.Schema({
   cost: Number
 });
 
-var Listings = mongoose.model('Listings', ListingSchema);
+var Listings = mongoose.model('listings', ListingSchema, 'listings');
 
 // var SellerSchema = mongoose.Schema({
 //   sqft: Number,
