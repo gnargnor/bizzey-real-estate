@@ -143,7 +143,7 @@ function appendRentals(rentals){
             '</div>' +
             '<div class="panel panel-success">' +
               '<div class="panel-heading panel-heading-sm">Size:</div>' +
-              '<div class="panel-body panel-body-sm"><span class="glyphicon glyphicon-info-sign">  ' + currentProp.sqft + ' SqFt</div>' +
+              '<div class="panel-body panel-body-sm"><span class="glyphicon glyphicon-info-sign"></span>  ' + currentProp.sqft + ' SqFt</div>' +
             '</div>' +
             '<div class="panel panel-info">' +
               '<div class="panel-heading panel-heading-sm">Rent:</div>' +
