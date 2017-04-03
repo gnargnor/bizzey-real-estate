@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 5000 || process.env.PORT;
+var port = process.env.PORT || 5000;
 var index = 'index.js';
 var realestate = require('./routes/realestate.js');
 var bodyParser = require('body-parser');
