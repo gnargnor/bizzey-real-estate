@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Estate Listings</title>
+    <link rel="stylesheet" href="/vendors/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+  </head>
+  <body>
+
+
+    <div class="container header">
+
+
+      <div class="container">
+        <h1> Bizzey Real Estate </h1>
+
+      </div>
+
+      <div class="container addButtons">
+        <button type="button" class="btn btn-primary toggleModal" data-toggle="modal" data-target="#addRealEstateModal" data-realEstateType="forSale">Add Seller Listing</button>
+
+        <button type="button" class="btn btn-primary toggleModal" data-toggle="modal" data-target="#addRealEstateModal" data-realEstateType="rental">Add Rental Property</button>
+        <button type="button" class="btn btn-default" id="toggleForSale">Show/Hide Seller Listings</button>
+        <button type="button" class="btn btn-default" id="toggleRentals">Show/Hide Renal Listings</button>
+      </div>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="container content">
+
+    <div class="modal fade" id="addRealEstateModal" tabindex="-1" role="dialog" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <div class="modal-title">
+              <span id="typeOfRealEstate">Add Real Estate</span>
+            <button type="button" class="close" data-dismiss="modal">X</button>
+            </div>
+          </div>
+
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="block">
+                    <span class="pull-left"><label for="addCity" class="form-control-label">City:</label></span>
+                    <span class="pull-right"><span class="glyphicon glyphicon-map-marker"></span></span>
+                  <div style='clear:both'></div>
+                </div>
+                <textarea class="form-control" rows="1" id="addCity"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="block">
+                    <span class="pull-left"><label for="addSqFt" class="form-control-label">Square Footage:</label></span>
+                    <span class="pull-right"><span class="glyphicon glyphicon-info-sign"></span></span>
+                  <div style='clear:both'></div>
+                </div>
+                <textarea class="form-control" rows="1" id="addSqFt"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="block">
+                    <span class="pull-left"><label for="addPrice" class="form-control-label">Price:</label></span>
+                    <span class="pull-right"><span class="glyphicon glyphicon-usd"></span></span>
+                  <div style='clear:both'></div>
+                </div>
+
+                <textarea class="form-control" rows="1" id="addPrice"></textarea>
+              </div>
+            </form>
+          </div>
+
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary btn-sm" id="submitProperty" data-dismiss="modal">Add Property</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div class="container">
+      <div class="forSaleProperties">
+        <h3>Properties For Sale: </h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="rentalProperties">
+        <h3>Properties For Rent: </h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="block">
+          <span class="pull-left"><h3>Nothing to see here.  Move along.</h3></span>
+          <span class="pull-right"><span class="glyphicon glyphicon-copyright-mark"></span>Bizzey Tech, LLC 2017</span>
+        <div style='clear:both'></div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+    <!-- load scripts -->
+    <script src="vendors/jquery.js" charset="utf-8"></script>
+    <script src="scripts/client.min.js" charset="utf-8"></script>
+    <script src="vendors/js/bootstrap.js" charset="utf-8"></script>
+    <script src="//localhost:35729/livereload.js"></script>
+  </body>
+</html>
