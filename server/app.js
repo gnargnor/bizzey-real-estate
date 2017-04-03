@@ -6,7 +6,7 @@ var realestate = require('./routes/realestate.js');
 var bodyParser = require('body-parser');
 
 var mongoose = require("mongoose");
-var mongoURI = "mongodb://localhost:27017/realestate";
+var mongoURI = "mongodb://moo:worm@ds149800.mlab.com:49800/listings";
 var MongoDB = mongoose.connect(mongoURI).connection;
 
 //If there is an error connecting to the database, let us know!
