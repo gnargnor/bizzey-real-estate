@@ -59,7 +59,7 @@ router.post('/post', function(req, res){
     }
 
     });
-  res.sendStatus(200);
+  res.send(newProperty);
 });
 
 module.exports = router;
