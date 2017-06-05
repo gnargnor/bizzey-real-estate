@@ -82,9 +82,9 @@ var mongoURI = "mongodb://localhost:27017" - for use on local machines
 * [Express](http://expressjs.com/)
 * [jQuery](jquery.com)
 * [MongoDB](https://mongodb.com)
-* [Mongoose](mongoosejs.com)
+* [Mongoose](http://mongoosejs.com)
 * [Bootstrap 3](http://getbootstrap.com/)
-* [Heroku](heroku.com)
+* [Heroku](http://heroku.com)
 * [mLab](https://mlab.com)
 * CSS3
 * HTML5
@@ -94,7 +94,7 @@ var mongoURI = "mongodb://localhost:27017" - for use on local machines
 
 * **Logan Kelly** - *Initial work* -  
   * [github.com/gnargnor](https://github.com/gnargnor)  
-  * [Bizzey Tech, LLC](www.bizzeytech.com)
+  * [Bizzey Tech, LLC](http://www.bizzeytech.com)
 
 ## License
 
@@ -103,4 +103,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 
-* [Prime Academy](www.primeacademy.io) - assignment credit
+* [Prime Academy](http://www.primeacademy.io) - assignment credit
